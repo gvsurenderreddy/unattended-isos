@@ -1,7 +1,11 @@
 # unattended-isos
 Script to make unattended iso for use with libvirt/kvm this is meant to be used in conjunction with some for of config management or automated scripted install method, so obviously the default user/pass should be changes ASAP!
 
-This script will download the all the latest isos for Ubuntu LTS from http://releases.ubuntu.com/ and convert them into an unattended installer with the following details:
+Only works with Ubuntu at present, should be trivial to add other distros
+
+## Ubuntu
+
+The script will download the all the latest isos for Ubuntu LTS from http://releases.ubuntu.com/ and convert them into an unattended installer with the following details:
 
 hostname: ubuntu
 user: ubuntu

@@ -118,7 +118,7 @@ d-i localechooser/supported-locales                         multiselect en_GB.UT
 d-i pkgsel/install-language-support                         boolean     true
 
 # keyboard selection
-d-i preseed/early_command                                   string      umount /media
+d-i preseed/early_command                                   string      umount /media || /bin/true
 d-i console-setup/ask_detect                                boolean     false
 d-i keyboard-configuration/modelcode                        string      pc105
 d-i keyboard-configuration/layoutcode                       string      gb
